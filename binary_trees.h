@@ -1,4 +1,4 @@
-#ifndef
+#ifndef BINARY_TREES_H
 #define BINARY_TREES_H
 
 #include <stddef.h>
@@ -36,7 +36,7 @@ void binary_tree_print(const binary_tree_t *);
  */
 typedef struct levelorder_queue_s
 {
-	binary_tree *node;
+	binary_tree_t *node;
 	struct levelorder_queue_s *next;
 } levelorder_queue_t;
 
